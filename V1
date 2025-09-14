@@ -1,0 +1,267 @@
+# robots.txt for CallConcierge HQ
+# This file tells search engines which pages to crawl and which to ignore
+
+User-agent: *
+# Allow all search engines to crawl the main site
+Allow: /
+
+# Block system or non-public files
+Disallow: /assets/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+
+# Important pages
+Allow: /index.html
+Allow: /privacy.html
+Allow: /terms.html
+Allow: /sitemap.html
+
+# Sitemap location
+Sitemap: https://callconciergehq.com/sitemap.xml
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sitemap | CallConcierge HQ</title>
+  <meta name="description" content="Sitemap for CallConcierge HQ — quick access to all important pages including Home, Pricing, Privacy Policy, Terms of Service, and Contact." />
+  <link rel="canonical" href="https://callconciergehq.com/sitemap.html" />
+</head>
+<body>
+  <header>
+    <h1>CallConcierge HQ Sitemap</h1>
+    <p>Quick navigation to key pages on our site.</p>
+  </header>
+
+  <main>
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+      <li><a href="index.html#pricing">💳 Pricing</a></li>
+      <li><a href="index.html#features">⚡ Features</a></li>
+      <li><a href="index.html#faq">❓ FAQ</a></li>
+      <li><a href="privacy.html">🔒 Privacy Policy</a></li>
+      <li><a href="terms.html">📜 Terms of Service</a></li>
+      <li><a href="index.html#contact">📞 Contact Us</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> CallConcierge HQ. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://callconciergehq.com/</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://callconciergehq.com/privacy.html</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Terms & Conditions -->
+  <url>
+    <loc>https://callconciergehq.com/terms.html</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Sitemap (HTML for humans) -->
+  <url>
+    <loc>https://callconciergehq.com/sitemap.html</loc>
+    <lastmod>2025-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Terms & Conditions | CallConcierge HQ</title>
+  <meta name="description" content="Review the Terms & Conditions for CallConcierge HQ. Learn about service agreements, responsibilities, and legal guidelines for using our AI receptionist solutions." />
+  <link rel="canonical" href="https://callconciergehq.com/terms.html" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Terms & Conditions | CallConcierge HQ" />
+  <meta property="og:description" content="Read the official Terms & Conditions for CallConcierge HQ’s AI receptionist services in the UK." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://callconciergehq.com/terms.html" />
+  <meta property="og:image" content="https://callconciergehq.com/assets/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Terms & Conditions | CallConcierge HQ" />
+  <meta name="twitter:description" content="Legal terms governing your use of CallConcierge HQ’s services." />
+  <meta name="twitter:image" content="https://callconciergehq.com/assets/og-image.jpg" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">CallConcierge HQ</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html" class="active">Terms</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h1>Terms & Conditions</h1>
+    <p>Welcome to CallConcierge HQ. By accessing our website and using our AI receptionist services, you agree to the following Terms & Conditions. Please read them carefully as they set forth your legal rights and obligations.</p>
+
+    <h2>1. Definitions</h2>
+    <p><strong>“Company”</strong> refers to CallConcierge HQ. <br>
+    <strong>“Services”</strong> refers to AI receptionist and call-handling solutions provided by CallConcierge HQ. <br>
+    <strong>“Client”</strong> refers to any individual or business purchasing or using our Services.</p>
+
+    <h2>2. Service Provision</h2>
+    <p>We provide AI-driven virtual receptionist services including (but not limited to) call answering, lead qualification, booking management, and CRM/calendar integrations. While we strive for 99.9% uptime and accuracy, we do not guarantee uninterrupted service or error-free performance.</p>
+
+    <h2>3. Client Responsibilities</h2>
+    <ul>
+      <li>Provide accurate call scripts, FAQs, and business details for setup.</li>
+      <li>Ensure call forwarding and integrations are properly configured.</li>
+      <li>Maintain compliance with applicable data protection laws when using the service.</li>
+    </ul>
+
+    <h2>4. Fees & Payments</h2>
+    <p>All services are billed according to the selected plan. Payments are due monthly in advance unless otherwise agreed. We reserve the right to suspend or terminate services for overdue invoices.</p>
+
+    <h2>5. Data Protection & GDPR</h2>
+    <p>We process client and caller data in compliance with the UK GDPR and Data Protection Act 2018. A Data Processing Agreement (DPA) is available upon request.</p>
+
+    <h2>6. Intellectual Property</h2>
+    <p>All software, content, and technology provided as part of the Services remain the sole property of CallConcierge HQ. Clients may not copy, reverse engineer, or redistribute our systems without prior written consent.</p>
+
+    <h2>7. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by law, CallConcierge HQ is not liable for indirect, incidental, or consequential damages, including lost revenue arising from missed or misrouted calls. Our liability is limited to the amount paid by the Client in the preceding 3 months of service.</p>
+
+    <h2>8. Termination</h2>
+    <p>Clients may cancel with 30 days’ written notice. We reserve the right to terminate service for misuse, non-payment, or breach of these Terms.</p>
+
+    <h2>9. Governing Law</h2>
+    <p>These Terms are governed by and construed under the laws of England & Wales. Any disputes shall be subject to the exclusive jurisdiction of the English courts.</p>
+
+    <h2>10. Updates to Terms</h2>
+    <p>We may update these Terms occasionally. Continued use of our Services constitutes acceptance of the revised Terms.</p>
+
+    <p>Last updated: <?php echo date("F j, Y"); ?></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 CallConcierge HQ. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy | CallConcierge HQ</title>
+  <meta name="description" content="Read the CallConcierge HQ privacy policy. Learn how we collect, use, and protect your personal data in compliance with GDPR and UK privacy laws." />
+  <link rel="canonical" href="https://callconciergehq.com/privacy.html" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Privacy Policy | CallConcierge HQ" />
+  <meta property="og:description" content="Understand how CallConcierge HQ handles your data responsibly, GDPR-ready and privacy-compliant." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://callconciergehq.com/privacy.html" />
+  <meta property="og:image" content="https://callconciergehq.com/assets/og-image.jpg" />
+
+  <!-- Styles (reuse Tailwind from index.html if included) -->
+  <link href="assets/styles.css" rel="stylesheet" />
+</head>
+<body class="bg-white text-slate-900">
+  <header class="py-6 border-b border-slate-200">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <a href="index.html">
+        <img src="assets/logo.png" alt="CallConcierge HQ Logo" class="h-10" />
+      </a>
+      <nav>
+        <a href="index.html" class="text-slate-700 hover:text-blue-600 font-semibold">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="py-16 container mx-auto px-4 prose max-w-3xl">
+    <h1>Privacy Policy</h1>
+    <p><strong>Effective Date:</strong> January 1, 2025</p>
+
+    <h2>1. Introduction</h2>
+    <p>CallConcierge HQ is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information in compliance with GDPR and UK Data Protection laws.</p>
+
+    <h2>2. Information We Collect</h2>
+    <ul>
+      <li><strong>Personal information</strong> such as name, email, phone number when you contact us or book a demo.</li>
+      <li><strong>Business information</strong> for onboarding (company name, industry, service details).</li>
+      <li><strong>Technical data</strong> such as IP address, browser type, and analytics cookies.</li>
+    </ul>
+
+    <h2>3. How We Use Information</h2>
+    <ul>
+      <li>To provide and manage our AI receptionist services.</li>
+      <li>To improve customer experience and support.</li>
+      <li>To comply with legal obligations (e.g., GDPR, contracts).</li>
+      <li>For marketing communications if you have opted in.</li>
+    </ul>
+
+    <h2>4. Data Sharing</h2>
+    <p>We do not sell personal data. We only share information with trusted service providers (e.g., calendar, CRM integrations) under strict data processing agreements.</p>
+
+    <h2>5. Data Retention</h2>
+    <p>We retain data only as long as necessary to deliver our services or meet legal requirements. You may request deletion at any time.</p>
+
+    <h2>6. Your Rights</h2>
+    <ul>
+      <li>Access your data</li>
+      <li>Request corrections or deletion</li>
+      <li>Object to processing or withdraw consent</li>
+      <li>Data portability (receive a copy of your data)</li>
+    </ul>
+
+    <h2>7. Cookies</h2>
+    <p>We use cookies for analytics and performance. You can disable cookies in your browser settings.</p>
+
+    <h2>8. Contact Us</h2>
+    <p>If you have questions about this Privacy Policy, contact us at:  
+    <a href="mailto:CallConciergehq@gmail.com">CallConciergehq@gmail.com</a></p>
+  </main>
+
+  <footer class="py-8 border-t border-slate-200 text-center text-sm text-slate-600">
+    <p>&copy; 2025 CallConcierge HQ. All rights reserved.</p>
+    <p><a href="sitemap.html" class="hover:text-blue-600">Sitemap</a> | <a href="privacy.html" class="hover:text-blue-600">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>
